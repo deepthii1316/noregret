@@ -1,0 +1,2448 @@
+{
+  "name": "DSA 60-day interview roadmap",
+  "source": "user-provided",
+  "totalDays": 60,
+  "totalProblems": 207,
+  "days": [
+    {
+      "day": 1,
+      "topic": "Two Pointers",
+      "focus": "Convergence & In-Place Compaction",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Two Sum II - Input Array Is Sorted",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Remove Duplicates from Sorted Array II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Move Zeroes",
+          "difficulty": "easy",
+          "label": "Foundational Warmup",
+          "url": "https://leetcode.com/problems/move-zeroes/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Sort Colors",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/sort-colors/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Two Pointers",
+          "url": "https://neetcode.io/courses/advanced-algorithms/1"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "topic": "Two Pointers",
+      "focus": "Three-Pointer Partitioning & Bounded Invariant Enclosure",
+      "problems": [
+        {
+          "order": 1,
+          "title": "3Sum",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/3sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "3Sum Closest",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/3sum-closest/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "4Sum",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/4sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Next Permutation",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/next-permutation/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver 3Sum/4Sum Analysis",
+          "url": "https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "topic": "Two Pointers",
+      "focus": "Trapping & Water Retention",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Container With Most Water",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/container-with-most-water/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Trapping Rain Water",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/trapping-rain-water/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Boats to Save People",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/boats-to-save-people/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Trapping Rain Water",
+          "url": "https://www.youtube.com/watch?v=ZI2z5TQzOrE"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "topic": "Sliding Window",
+      "focus": "Fixed-Size Window Invariants",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Maximum Average Subarray I",
+          "difficulty": "easy",
+          "label": "Warmup",
+          "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Maximum Number of Vowels in a Substring of Given Length",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Sliding Subarray Beauty",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/sliding-subarray-beauty/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Grumpy Bookstore Owner",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/grumpy-bookstore-owner/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Tech Interview Handbook Sliding Window",
+          "url": "https://www.techinterviewhandbook.org/algorithms/sliding-window/"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "topic": "Sliding Window",
+      "focus": "Dynamic Variable-Size Window Expansion/Contraction",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Longest Substring Without Repeating Characters",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Minimum Size Subarray Sum",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Max Consecutive Ones III",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Fruit Into Baskets",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/fruit-into-baskets/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Longest Substring",
+          "url": "https://www.youtube.com/watch?v=wiGpQwVHdE0"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "topic": "Sliding Window",
+      "focus": "Inverted Frequency Tracking & Stream Signatures",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Permutation in String",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/permutation-in-string/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Find All Anagrams in a String",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Longest Repeating Character Replacement",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Permutation in String",
+          "url": "https://www.youtube.com/watch?v=UbyhOgBN834"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "topic": "Monotonic Sliding Window",
+      "focus": "Monotonic Deque & Rolling Extreme Metrics",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Sliding Window Maximum",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/sliding-window-maximum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Constrained Subsequence Sum",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/constrained-subsequence-sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "CP-Algorithms Min/Max Queue",
+          "url": "https://cp-algorithms.com/data_structures/stack_queue_modification.html"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "topic": "Sliding Window",
+      "focus": "Complex Constraints & Multi-Variable Boundary Windows",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Minimum Window Substring",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/minimum-window-substring/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Subarrays with K Different Integers",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Count Complete Subarrays in an Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/count-complete-subarrays-in-an-array/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Minimum Window Substring",
+          "url": "https://www.youtube.com/watch?v=jSto0O4AJbM"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "topic": "Prefix Sums & Difference Arrays",
+      "focus": "Range Update Queues & Event Log Delta Aggregation",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Range Sum Query - Immutable",
+          "difficulty": "easy",
+          "label": "Baseline",
+          "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Corporate Flight Bookings",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/corporate-flight-bookings/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Car Pooling",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/car-pooling/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Product of Array Except Self",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/product-of-array-except-self/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "USACO Guide Prefix Sums",
+          "url": "https://usaco.guide/silver/prefix-sums"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "topic": "Prefix Hashmaps",
+      "focus": "Subarray Sums Modulo K & Invariant Remainder Tracking",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Subarray Sum Equals K",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Continuous Subarray Sum",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/continuous-subarray-sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Subarray Sums Divisible by K",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Contiguous Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/contiguous-array/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Subarray Sum Equals K",
+          "url": "https://takeuforward.org/arrays/count-subarray-sum-equals-k/"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "topic": "Hash Table Architecture",
+      "focus": "Inverted Indexing & Collision Resolution",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Group Anagrams",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/group-anagrams/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Insert Delete GetRandom O(1)",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Design Underground System",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/design-underground-system/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Group Anagrams",
+          "url": "https://www.youtube.com/watch?v=vzdNOK2oDA4"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "topic": "Hash Tables with Ordering",
+      "focus": "Sequence Graphs & Consistent Hashing Ring Emulation",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Longest Consecutive Sequence",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Encode and Decode TinyURL",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Longest Consecutive Sequence",
+          "url": "https://www.youtube.com/watch?v=P6RZZMu_maU"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "topic": "Matrix State Transformations",
+      "focus": "Storage Tile Layouts & In-Place Bit Buffers",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Rotate Image",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/rotate-image/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Spiral Matrix",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/spiral-matrix/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Set Matrix Zeroes",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Game of Life",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/game-of-life/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Rotate Matrix",
+          "url": "https://takeuforward.org/data-structure/rotate-image-by-90-degree/"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "topic": "Fast-Slow Pointers (Floyd's Algorithm)",
+      "focus": "Cycle Detection & Self-Referential Corruption",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Linked List Cycle II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Find the Duplicate Number",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Reorder List",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/reorder-list/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Copy List with Random Pointer",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Linked List Cycle & Duplicate",
+          "url": "https://www.youtube.com/watch?v=wjYnzkAhcNk"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "topic": "Monotonic Stack",
+      "focus": "Next Greater Element & Threshold Alerting",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Daily Temperatures",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/daily-temperatures/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Next Greater Element II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/next-greater-element-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Online Stock Span",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/online-stock-span/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Daily Temperatures",
+          "url": "https://www.youtube.com/watch?v=cTBiBSnjG3w"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "topic": "Monotonic Stack",
+      "focus": "Histogram Area & Extreme Contiguity",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Largest Rectangle in Histogram",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Maximal Rectangle",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/maximal-rectangle/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Remove K Digits",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/remove-k-digits/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Largest Rectangle in Histogram",
+          "url": "https://www.youtube.com/watch?v=zx5SwR138WI"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "topic": "Monotonic Stack",
+      "focus": "Subarray Extremes & Contribution Counting",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Sum of Subarray Minimums",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Sum of Subarray Ranges",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/sum-of-subarray-ranges/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "132 Pattern",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/132-pattern/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Maximum Width Ramp",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/maximum-width-ramp/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Sum of Subarray Minimums",
+          "url": "https://takeuforward.org/data-structure/sum-of-subarray-minimums/"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "topic": "Stack Parsers & Expression Evaluators",
+      "focus": "AST Parsing & Reverse Polish Notation",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Evaluate Reverse Polish Notation",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Basic Calculator II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/basic-calculator-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Basic Calculator",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/basic-calculator/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Decode String",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/decode-string/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Reverse Polish Notation",
+          "url": "https://www.youtube.com/watch?v=iu0082j4uh8"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "topic": "Cache Eviction Engines",
+      "focus": "LRU Cache (Hashmap + Doubly Linked List)",
+      "problems": [
+        {
+          "order": 1,
+          "title": "LRU Cache",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/lru-cache/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Design Circular Queue",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/design-circular-queue/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Reverse Nodes in k-Group",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode LRU Cache",
+          "url": "https://www.youtube.com/watch?v=7ABFKPK2hD4"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "topic": "Cache Eviction Engines",
+      "focus": "LFU Cache & Frequency Bucketing",
+      "problems": [
+        {
+          "order": 1,
+          "title": "LFU Cache",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/lfu-cache/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "All O`one Data Structure",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/all-oone-data-structure/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Design Hit Counter",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/design-hit-counter/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver LFU Cache",
+          "url": "https://takeuforward.org/data-structure/lfu-cache/"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "topic": "Binary Search",
+      "focus": "Exact Boundaries & Rotary Buffers",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Find First and Last Position of Element in Sorted Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Single Element in a Sorted Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Search a 2D Matrix",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Search Insert Position",
+          "difficulty": "easy",
+          "label": "Warmup",
+          "url": "https://leetcode.com/problems/search-insert-position/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Tech Interview Handbook Binary Search",
+          "url": "https://www.techinterviewhandbook.org/algorithms/binary-search/"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "topic": "Binary Search",
+      "focus": "Rotated Sorted Arrays & Ring Partitions",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Search in Rotated Sorted Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Find Minimum in Rotated Sorted Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Search in Rotated Sorted Array II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Rotated Array Search",
+          "url": "https://www.youtube.com/watch?v=U8XENwh8Oy8"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "topic": "Binary Search",
+      "focus": "Peak Finding & Convex Metrics",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Find Peak Element",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-peak-element/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Peak Index in a Mountain Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Search a 2D Matrix II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Peak Element",
+          "url": "https://takeuforward.org/data-structure/find-peak-element/"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "topic": "Binary Search on Answer Space",
+      "focus": "Monotonic Predicates & Throughput Calibration",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Koko Eating Bananas",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/koko-eating-bananas/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Capacity To Ship Packages Within D Days",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Minimum Number of Days to Make m Bouquets",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Koko Eating Bananas",
+          "url": "https://www.youtube.com/watch?v=U2SozAs9RzA"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "topic": "Binary Search on Answer Space",
+      "focus": "Workload Partitioning & Min-Max Fairness",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Split Array Largest Sum",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/split-array-largest-sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Magnetic Force Between Two Balls",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/magnetic-force-between-two-balls/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Find K-th Smallest Pair Distance",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Split Array Largest Sum",
+          "url": "https://takeuforward.org/data-structure/split-array-largest-sum/"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "topic": "Binary Search on Multi-Arrays / Partitions",
+      "focus": "Sharded Quantiles & Temporal KV Lookups",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Median of Two Sorted Arrays",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Time Based Key-Value Store",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/time-based-key-value-store/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Snapshot Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/snapshot-array/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Median of Two Sorted Arrays",
+          "url": "https://www.youtube.com/watch?v=q6IEA26hvPE"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "topic": "Heaps / Priority Queues",
+      "focus": "Streaming Top-K & Heavy Hitters",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Kth Largest Element in an Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Top K Frequent Elements",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "K Closest Points to Origin",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Sort Characters By Frequency",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/sort-characters-by-frequency/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Top K Frequent Elements",
+          "url": "https://www.youtube.com/watch?v=YPTqKIgVk-k"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "topic": "Heaps / Multi-way Merge",
+      "focus": "K-Sorted Stream Consolidation & External Sort",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Merge k Sorted Lists",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Smallest Range Covering Elements from K Lists",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Find K Pairs with Smallest Sums",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Merge K Sorted Lists",
+          "url": "https://www.youtube.com/watch?v=q5a5OiGbT6Q"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "topic": "Two-Heap Architecture",
+      "focus": "Streaming Median & Dynamic Percentile Tracking",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Find Median from Data Stream",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Sliding Window Median",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/sliding-window-median/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "IPO",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/ipo/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Find Median from Data Stream",
+          "url": "https://www.youtube.com/watch?v=itmhHWaHupI"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "topic": "Priority Task Scheduling",
+      "focus": "Cooldowns & CPU Schedulers",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Task Scheduler",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/task-scheduler/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Single-Threaded CPU",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/single-threaded-cpu/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Maximum Subsequence Score",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/maximum-subsequence-score/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Task Scheduler",
+          "url": "https://www.youtube.com/watch?v=s8p8ukTyA2I"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "topic": "Greedy Heaps & Cooldowns",
+      "focus": "Queue Dispatch Reordering & Fan-out Feeds",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Reorganize String",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/reorganize-string/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Design Twitter",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/design-twitter/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Seat Reservation Manager",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/seat-reservation-manager/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Design Twitter",
+          "url": "https://www.youtube.com/watch?v=pNichitDD2E"
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "topic": "Advanced Heaps & Greedy Lookahead",
+      "focus": "Resource Allocation & Deadline Scheduling",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Course Schedule III",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/course-schedule-iii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Minimum Cost to Hire K Workers",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Maximum Performance of a Team",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/maximum-performance-of-a-team/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "William Fiset Priority Queues",
+          "url": "https://www.youtube.com/watch?v=wptevk0bshY"
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "topic": "Binary Trees: DFS",
+      "focus": "Path Aggregation & Distributed Traceback",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Diameter of Binary Tree",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Binary Tree Maximum Path Sum",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Path Sum III",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/path-sum-iii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Maximum Depth of Binary Tree",
+          "difficulty": "easy",
+          "label": "Warmup",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Maximum Path Sum",
+          "url": "https://www.youtube.com/watch?v=Hr5cWUld4vU"
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "topic": "Binary Trees: BFS / Level-Order",
+      "focus": "Gossip Protocols & Broadcasters",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Binary Tree Level Order Traversal",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Binary Tree Zigzag Level Order Traversal",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Binary Tree Right Side View",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Populating Next Right Pointers in Each Node",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Right Side View",
+          "url": "https://www.youtube.com/watch?v=d4zLyf32Rq4"
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "topic": "Tree Lineage & LCA",
+      "focus": "Git Commit Ancestry & Merkle Sync",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Lowest Common Ancestor of a Binary Tree",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "All Nodes Distance K in Binary Tree",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Lowest Common Ancestor of a BST",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Lowest Common Ancestor",
+          "url": "https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/"
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "topic": "Tree Serialization",
+      "focus": "Zero-Copy Protocols & Schemas",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Serialize and Deserialize Binary Tree",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Serialize and Deserialize BST",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/serialize-and-deserialize-bst/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Flatten Binary Tree to Linked List",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Serialize & Deserialize Binary Tree",
+          "url": "https://www.youtube.com/watch?v=u4JAi2JJhI8"
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "topic": "Binary Search Trees (BST)",
+      "focus": "Invariants & B-Tree Page Scans",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Validate Binary Search Tree",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Kth Smallest Element in a BST",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Delete Node in a BST",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/delete-node-in-a-bst/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Recover Binary Search Tree",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/recover-binary-search-tree/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Validate BST",
+          "url": "https://www.youtube.com/watch?v=s6ATEkipzow"
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "topic": "Tree Construction",
+      "focus": "Reconstructing ASTs from Event Streams",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Maximum Binary Tree",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/maximum-binary-tree/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Construct Binary Tree",
+          "url": "https://www.youtube.com/watch?v=ihj4IQGZ2uc"
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "topic": "Prefix Trees (Tries)",
+      "focus": "Prefix Matching & URL Routing",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Implement Trie (Prefix Tree)",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Search Suggestions System",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/search-suggestions-system/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Replace Words",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/replace-words/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Extra Characters in a String",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/extra-characters-in-a-string/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Implement Trie",
+          "url": "https://www.youtube.com/watch?v=oobqoCJlHA0"
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "topic": "Prefix Trees (Tries)",
+      "focus": "Wildcard Matching & Dictionary Denser Tries",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Design Add and Search Words Data Structure",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Word Search II",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/word-search-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Map Sum Pairs",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/map-sum-pairs/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Word Search II",
+          "url": "https://www.youtube.com/watch?v=asbcE9mZz_U"
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "topic": "Bitwise Tries & Virtual File Systems",
+      "focus": "IP CIDR Longest Prefix Match (LPM)",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Maximum XOR of Two Numbers in an Array",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Maximum XOR With an Element From Array",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Design In-Memory File System",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/design-in-memory-file-system/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "CP-Algorithms Bitwise Trie",
+          "url": "https://cp-algorithms.com/data_structures/trie.html"
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "topic": "Backtracking",
+      "focus": "Subsets & Combination Scopes",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Subsets",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/subsets/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Subsets II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/subsets-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Combination Sum",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/combination-sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Combination Sum II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/combination-sum-ii/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Combination Sum",
+          "url": "https://www.youtube.com/watch?v=GBKI9VSKdGg"
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "topic": "Backtracking",
+      "focus": "Permutations & Workload Tokenization",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Permutations",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/permutations/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Permutations II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/permutations-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Palindrome Partitioning",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/palindrome-partitioning/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Letter Combinations of a Phone Number",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Palindrome Partitioning",
+          "url": "https://www.youtube.com/watch?v=3Rb41Gs_50A"
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "topic": "Backtracking",
+      "focus": "Constraint Satisfaction & Pruning",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Word Search",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/word-search/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "N-Queens",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/n-queens/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Sudoku Solver",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/sudoku-solver/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode N-Queens",
+          "url": "https://www.youtube.com/watch?v=Ph95IHmRp5M"
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "topic": "Graph Traversals (BFS/DFS)",
+      "focus": "Connected Components & Object Reachability",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Number of Islands",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/number-of-islands/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Max Area of Island",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/max-area-of-island/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Clone Graph",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/clone-graph/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Pacific Atlantic Water Flow",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Number of Islands",
+          "url": "https://www.youtube.com/watch?v=pV2kpPD66nE"
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "topic": "Multi-Source BFS",
+      "focus": "Failure Cascades & Blast-Radius Propagation",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Rotting Oranges",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/rotting-oranges/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "01 Matrix",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/01-matrix/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Shortest Path in Binary Matrix",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Surrounded Regions",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/surrounded-regions/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Rotting Oranges",
+          "url": "https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/"
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "topic": "Bidirectional BFS",
+      "focus": "Shortest Path in Exponential State Spaces",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Word Ladder",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/word-ladder/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Open the Lock",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/open-the-lock/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Minimum Genetic Mutation",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/minimum-genetic-mutation/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Word Ladder",
+          "url": "https://www.youtube.com/watch?v=h9iTnkgv05E"
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "topic": "Cycle Detection in Directed Graphs",
+      "focus": "Distributed Lock Deadlock Detection",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Course Schedule",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/course-schedule/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Find Eventual Safe States",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-eventual-safe-states/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Detect Cycles in 2D Grid",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/detect-cycles-in-2d-grid/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Course Schedule",
+          "url": "https://www.youtube.com/watch?v=EgI5nU9etnU"
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "topic": "Disjoint Set Union (DSU)",
+      "focus": "Network Partitioning & Quorum Membership",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Number of Provinces",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/number-of-provinces/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Redundant Connection",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/redundant-connection/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Number of Connected Components in an Undirected Graph",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Graph Valid Tree",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/graph-valid-tree/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Tech Interview Handbook Disjoint Set Union",
+          "url": "https://www.techinterviewhandbook.org/algorithms/graph/"
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "topic": "Disjoint Set Union (DSU)",
+      "focus": "Account Merging & Entity Deduplication",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Accounts Merge",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/accounts-merge/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Most Stones Removed with Same Row or Column",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Satisfiability of Equality Equations",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/satisfiability-of-equality-equations/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Accounts Merge",
+          "url": "https://takeuforward.org/data-structure/accounts-merge-disjoint-set-g-54/"
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "topic": "Topological Sort",
+      "focus": "Build Dependency Systems & DAG Scheduling",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Course Schedule II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/course-schedule-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Alien Dictionary",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/alien-dictionary/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Minimum Height Trees",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/minimum-height-trees/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Course Schedule II",
+          "url": "https://www.youtube.com/watch?v=Akt3glAwyfY"
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "topic": "Advanced DAG Execution",
+      "focus": "Critical Path & Parallel Execution Schedulers",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Parallel Courses III",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/parallel-courses-iii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Sort Items by Groups Respecting Dependencies",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Loud and Rich",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/loud-and-rich/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "CP-Algorithms Topological Sort",
+          "url": "https://cp-algorithms.com/graph/topological-sort.html"
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "topic": "Single-Source Shortest Paths (Dijkstra)",
+      "focus": "Latency-Optimized Mesh Routing",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Network Delay Time",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/network-delay-time/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Path with Maximum Probability",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/path-with-maximum-probability/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Path With Minimum Effort",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/path-with-minimum-effort/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Swim in Rising Water",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/swim-in-rising-water/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Network Delay Time",
+          "url": "https://www.youtube.com/watch?v=EaphyqKU4PQ"
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "topic": "Constrained Shortest Paths & Minimum Spanning Trees",
+      "focus": "SLA Hop Constraints (Bellman-Ford) & Minimal Overlays (Kruskal/Prim)",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Cheapest Flights Within K Stops",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Min Cost to Connect All Points",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Cheapest Flights",
+          "url": "https://www.youtube.com/watch?v=5eIK3zUdYmE"
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "topic": "Graph Cuts & Bridges (Tarjan's Algorithm)",
+      "focus": "Single Points of Failure & Eulerian Paths",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Critical Connections in a Network",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/critical-connections-in-a-network/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Reconstruct Itinerary",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Is Graph Bipartite?",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/is-graph-bipartite/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Striver Bridges in Graph (Tarjan's)",
+          "url": "https://takeuforward.org/data-structure/bridges-in-graph-using-tarjans-algorithm-of-time-in-and-low-time-g-55/"
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "topic": "Range Query Analytics (Segment Trees & Fenwick)",
+      "focus": "Rolling Point Updates & Range Aggregates",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Range Sum Query - Mutable",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/range-sum-query-mutable/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Count of Smaller Numbers After Self",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Queue Reconstruction by Height",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/queue-reconstruction-by-height/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "CP-Algorithms Segment Tree",
+          "url": "https://cp-algorithms.com/data_structures/segment_tree.html"
+        },
+        {
+          "name": "William Fiset Fenwick Tree",
+          "url": "https://www.youtube.com/watch?v=rgE_80tWfDI"
+        }
+      ]
+    },
+    {
+      "day": 57,
+      "topic": "1D Dynamic Programming",
+      "focus": "Optimal Substructure & Linear Recurrences",
+      "problems": [
+        {
+          "order": 1,
+          "title": "House Robber & House Robber II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/house-robber/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Decode Ways",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/decode-ways/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Word Break",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/word-break/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Min Cost Climbing Stairs",
+          "difficulty": "easy",
+          "label": "Warmup",
+          "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Word Break",
+          "url": "https://www.youtube.com/watch?v=Sx9NNgInc3A"
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "topic": "Knapsack & Subset Variations",
+      "focus": "Cloud Capacity Bin-Packing & Budget Allocation",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Coin Change",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/coin-change/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Coin Change II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/coin-change-ii/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Partition Equal Subset Sum",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Target Sum",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/target-sum/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Coin Change",
+          "url": "https://www.youtube.com/watch?v=H9bfqozjoqs"
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "topic": "Longest Increasing Subsequence & 2D String DP",
+      "focus": "Version Clocks, Diff Engines & Document Reconciliation",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Longest Increasing Subsequence",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Russian Doll Envelopes",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/russian-doll-envelopes/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Edit Distance",
+          "difficulty": "hard",
+          "label": "Hard",
+          "url": "https://leetcode.com/problems/edit-distance/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Longest Common Subsequence",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/longest-common-subsequence/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Edit Distance",
+          "url": "https://www.youtube.com/watch?v=XYi2-LPrwm4"
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "topic": "Interval Scheduling & Bitmaps",
+      "focus": "Distributed Lease Renewals & High-Density Filtering",
+      "problems": [
+        {
+          "order": 1,
+          "title": "Merge Intervals",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/merge-intervals/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 2,
+          "title": "Insert Interval",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/insert-interval/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 3,
+          "title": "Non-overlapping Intervals",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+          "platform": "LeetCode"
+        },
+        {
+          "order": 4,
+          "title": "Meeting Rooms II",
+          "difficulty": "medium",
+          "label": "Medium",
+          "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+          "platform": "LeetCode"
+        }
+      ],
+      "resources": [
+        {
+          "name": "NeetCode Merge Intervals",
+          "url": "https://www.youtube.com/watch?v=44H3cEC2fFM"
+        }
+      ]
+    }
+  ]
+}
