@@ -16,7 +16,7 @@ Next.js 15 + Supabase + Vercel. Personal day planner and prep tracker. Everythin
 | AWS / ML / Projects: practice logs, resources, exam countdown, project and contribution tracking | Built |
 | Contests: synced/manual contests, attendance, results, upsolves and trend charts | Built |
 | Explore / Blog / Weekly Review | Built |
-| Push reminders and embroidery tracker | Built; optional configuration required |
+| Push reminders and embroidery tracker | Embroidery tracker built; automatic push delivery is not scheduled |
 | Tracker drag-to-reorder and offline app shell | Built |
 | Playwright E2E suite | Not included; testing was declined for this implementation |
 
@@ -27,7 +27,7 @@ The app uses Tailwind, server actions and TanStack Query. It includes a small sh
 1. **Supabase project**: create one at supabase.com.
 2. **Schema**: run both `supabase/migrations/0001_init.sql` and `supabase/migrations/0002_pending_features.sql` (or `supabase db push` with the CLI).
 3. **Owner account**: Authentication > Users > Add user (email + password, tick auto-confirm). Then Authentication > Sign In / Providers > turn **off** "Allow new users to sign up".
-4. **Env**: copy `.env.example` to `.env.local` and fill in the project URL, anon key, service-role key (Project Settings > API) and `SEED_USER_EMAIL` (the owner's email). The service-role key is needed by the seed and protected cron jobs; never prefix it with `NEXT_PUBLIC_`. `CRON_SECRET` is required for scheduled jobs. Push reminders additionally require VAPID keys and `VAPID_SUBJECT`; generate keys with `npx web-push generate-vapid-keys`.
+4. **Env**: copy `.env.example` to `.env.local` and fill in the project URL, anon key, service-role key (Project Settings > API) and `SEED_USER_EMAIL` (the owner's email). The service-role key is needed by the seed script; never prefix it with `NEXT_PUBLIC_`. Push delivery additionally requires VAPID keys and `VAPID_SUBJECT`; generate keys with `npx web-push generate-vapid-keys`.
 5. **Install + seed + run**:
    ```bash
    npm install
@@ -38,9 +38,9 @@ The app uses Tailwind, server actions and TanStack Query. It includes a small sh
    ```
 6. **Deploy to Vercel**:
    - Push the project to GitHub, import the repository in Vercel, and set the app folder as the Root Directory if the repository contains multiple projects.
-   - Add `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, and `CRON_SECRET` under Project Settings > Environment Variables for Production (and Preview/Development if needed). Keep the service-role key server-only. Add `NEXT_PUBLIC_VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, and `VAPID_SUBJECT` only if enabling push reminders.
+   - Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` under Project Settings > Environment Variables. Keep `SUPABASE_SERVICE_ROLE_KEY` server-only; it is only needed in Vercel if you add a server-side operation that uses it. Push reminders require `NEXT_PUBLIC_VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, and `VAPID_SUBJECT`, plus a scheduler to invoke delivery.
    - Apply both SQL migrations and seed the owner account before relying on database-backed pages. Do not put `SEED_USER_EMAIL` in Vercel unless you plan to run the seed script there.
-   - Deploy. Vercel reads `vercel.json` for the six-hour contest sync and five-minute reminder cron schedules; the project plan must support those frequencies. Verify sign-in, then check the Vercel deployment and Cron logs. The cron routes require `CRON_SECRET`.
+   - Deploy. No Vercel Cron jobs are configured. Contest syncing remains available from the app; push notifications will not be sent automatically unless you configure an external scheduler.
 
 The CSES list can also be synced by an authenticated user in Settings or imported from CSV with `tracker,group,title,url` columns. Offline support caches only the app shell; private Supabase data is not available offline.
 
